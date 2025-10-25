@@ -12,6 +12,7 @@ import {
   Menu,
   X,
 } from "lucide-react";
+import Hero from "@/components/Hero";
 
 export default function Home() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -106,29 +107,7 @@ export default function Home() {
       </header>
 
       {/* Hero Section */}
-      <section
-        id="home"
-        className="relative bg-gradient-to-br from-orange-50 to-orange-100 py-20"
-      >
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center">
-            <h2 className="text-5xl md:text-6xl font-bold text-gray-900 mb-4">
-              Kailash Mansarovar Yatra 2026
-            </h2>
-            <p className="text-xl text-orange-700 mb-6 font-semibold">
-              Divine Pilgrimage to Mount Kailash in Tibet
-            </p>
-            <p className="text-lg text-gray-700 max-w-3xl mx-auto mb-8">
-              A classic and popular route starting from Kathmandu, offering a
-              blend of comfort and adventure. Experience the journey of a
-              lifetime to the sacred abode of Lord Shiva.
-            </p>
-            <div className="inline-block bg-orange-600 text-white px-6 py-3 rounded-lg font-semibold">
-              Bookings Open for 2026
-            </div>
-          </div>
-        </div>
-      </section>
+      <Hero />
 
       {/* Introduction Section */}
       <section className="py-16 bg-white">
