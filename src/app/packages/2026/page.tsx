@@ -18,6 +18,7 @@ import {
 } from "lucide-react";
 import Link from "next/link";
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 export default function Package2026() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -362,25 +363,7 @@ export default function Package2026() {
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="bg-gray-900 text-white py-8">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center">
-            <div className="flex items-center justify-center space-x-2 mb-4">
-              <Mountain className="h-6 w-6 text-orange-600" />
-              <span className="text-lg font-bold">
-                Kailash Mansarovar Yatra UK
-              </span>
-            </div>
-            <p className="text-gray-400 mb-4">
-              Your trusted partner for the spiritual journey of a lifetime
-            </p>
-            <p className="text-gray-500 text-sm">
-              © 2025 kailashmansarovar.co.uk. All rights reserved.
-            </p>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }
