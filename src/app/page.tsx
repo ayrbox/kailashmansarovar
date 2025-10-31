@@ -14,6 +14,7 @@ import {
 } from "lucide-react";
 import Hero from "@/components/Hero";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Home() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -25,13 +26,12 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center space-x-2">
-              <Mountain className="h-8 w-8 text-orange-600" />
-              <div>
-                <h1 className="text-xl font-bold text-gray-900">
-                  Kailash Mansarovar Yatra
-                </h1>
-                <p className="text-xs text-gray-600">kailashmansarovar.co.uk</p>
-              </div>
+              <Image
+                alt="Kailash Mansarovar Logo"
+                src="/logo.svg"
+                width={120}
+                height={120}
+              />
             </div>
 
             {/* Desktop Navigation */}
