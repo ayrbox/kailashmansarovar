@@ -13,12 +13,11 @@ import {
   MapPin,
   Phone,
   Mail,
-  X,
-  Menu,
 } from "lucide-react";
 import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import BookCTA from "@/components/BookCTA";
 
 export default function Package2026() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -78,9 +77,7 @@ export default function Package2026() {
               <div className="text-sm text-gray-700 mb-6">
                 Single payment option
               </div>
-              <button className="w-full bg-orange-600 text-white py-3 rounded-lg font-semibold hover:bg-orange-700 transition">
-                Book Now
-              </button>
+              <BookCTA>Book Now</BookCTA>
             </div>
           </div>
         </div>

@@ -1,3 +1,5 @@
+import BookCTA from "./BookCTA";
+
 export default function Hero() {
   return (
     <section
@@ -22,12 +24,7 @@ export default function Hero() {
         </p>
 
         <div className="flex flex-col md:flex-row gap-4 justify-items-end">
-          <a
-            href="tel:+447545066652"
-            className="inline-block bg-orange-600 text-white px-6 py-3 rounded-lg font-semibold"
-          >
-            Bookings Open for 2026
-          </a>
+          <BookCTA>Bookings Open for 2026</BookCTA>
         </div>
       </div>
     </section>
