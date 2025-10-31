@@ -17,6 +17,7 @@ import {
   Menu,
 } from "lucide-react";
 import Link from "next/link";
+import Header from "@/components/Header";
 
 export default function Package2026() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -31,92 +32,7 @@ export default function Package2026() {
 
   return (
     <div className="min-h-screen bg-white">
-      {/* Header/Navigation */}
-      <header className="bg-white shadow-md sticky top-0 z-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center py-4">
-            <Link href="/" className="flex items-center space-x-2">
-              <Mountain className="h-8 w-8 text-orange-600" />
-              <div>
-                <h1 className="text-xl font-bold text-gray-900">
-                  Kailash Mansarovar Yatra
-                </h1>
-                <p className="text-xs text-gray-600">kailashmansarovar.co.uk</p>
-              </div>
-            </Link>
-
-            {/* Desktop Navigation */}
-            <nav className="hidden md:flex space-x-8">
-              <Link
-                href="/#home"
-                className="text-gray-700 hover:text-orange-600 transition"
-              >
-                Home
-              </Link>
-              <Link
-                href="/#packages"
-                className="text-gray-700 hover:text-orange-600 transition"
-              >
-                Packages
-              </Link>
-              <Link
-                href="/#about"
-                className="text-gray-700 hover:text-orange-600 transition"
-              >
-                About
-              </Link>
-              <Link
-                href="/#contact"
-                className="text-gray-700 hover:text-orange-600 transition"
-              >
-                Contact
-              </Link>
-            </nav>
-
-            {/* Mobile Menu Button */}
-            <button
-              onClick={() => setMenuOpen(!menuOpen)}
-              className="md:hidden text-gray-700"
-            >
-              {menuOpen ? (
-                <X className="h-6 w-6" />
-              ) : (
-                <Menu className="h-6 w-6" />
-              )}
-            </button>
-          </div>
-
-          {/* Mobile Navigation */}
-          {menuOpen && (
-            <nav className="md:hidden py-4 space-y-2 border-t">
-              <Link
-                href="/#home"
-                className="block py-2 text-gray-700 hover:text-orange-600"
-              >
-                Home
-              </Link>
-              <Link
-                href="/#packages"
-                className="block py-2 text-gray-700 hover:text-orange-600"
-              >
-                Packages
-              </Link>
-              <Link
-                href="/#about"
-                className="block py-2 text-gray-700 hover:text-orange-600"
-              >
-                About
-              </Link>
-              <Link
-                href="/#contact"
-                className="block py-2 text-gray-700 hover:text-orange-600"
-              >
-                Contact
-              </Link>
-            </nav>
-          )}
-        </div>
-      </header>
+      <Header />
 
       {/* Hero Section */}
       <section className="relative h-96 bg-gradient-to-br from-blue-500 via-blue-600 to-blue-700">
