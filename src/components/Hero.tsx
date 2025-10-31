@@ -3,7 +3,7 @@ export default function Hero() {
     <section
       className="relative bg-cover bg-no-repeat bg-center"
       style={{
-        backgroundImage: `url(./kailash-mountain.jpg)`,
+        backgroundImage: `url(/kailash-mountain.jpg)`,
       }}
       id="home"
     >

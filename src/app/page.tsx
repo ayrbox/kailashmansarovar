@@ -13,6 +13,7 @@ import {
   X,
 } from "lucide-react";
 import Hero from "@/components/Hero";
+import Link from "next/link";
 
 export default function Home() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -182,9 +183,11 @@ export default function Home() {
                     </span>
                   </li>
                 </ul>
-                <button className="w-full bg-orange-600 text-white py-3 rounded-lg font-semibold hover:bg-orange-700 transition">
-                  View Program Details
-                </button>
+                <Link href="/packages/2026">
+                  <button className="w-full bg-orange-600 text-white py-3 rounded-lg font-semibold hover:bg-orange-700 transition">
+                    View Program Details
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
