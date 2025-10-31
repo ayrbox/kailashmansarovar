@@ -1,6 +1,3 @@
-"use client";
-
-import { useState } from "react";
 import {
   Mountain,
   Users,
@@ -9,104 +6,17 @@ import {
   Mail,
   MapPin,
   CheckCircle,
-  Menu,
-  X,
 } from "lucide-react";
 import Hero from "@/components/Hero";
+import Link from "next/link";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 export default function Home() {
-  const [menuOpen, setMenuOpen] = useState(false);
-
   return (
     <div className="min-h-screen bg-white">
-      {/* Header/Navigation */}
-      <header className="bg-white shadow-md sticky top-0 z-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center py-4">
-            <div className="flex items-center space-x-2">
-              <Mountain className="h-8 w-8 text-orange-600" />
-              <div>
-                <h1 className="text-xl font-bold text-gray-900">
-                  Kailash Mansarovar Yatra
-                </h1>
-                <p className="text-xs text-gray-600">kailashmansarovar.co.uk</p>
-              </div>
-            </div>
+      <Header />
 
-            {/* Desktop Navigation */}
-            <nav className="hidden md:flex space-x-8">
-              <a
-                href="#home"
-                className="text-gray-700 hover:text-orange-600 transition"
-              >
-                Home
-              </a>
-              <a
-                href="#packages"
-                className="text-gray-700 hover:text-orange-600 transition"
-              >
-                Packages
-              </a>
-              <a
-                href="#about"
-                className="text-gray-700 hover:text-orange-600 transition"
-              >
-                About
-              </a>
-              <a
-                href="#contact"
-                className="text-gray-700 hover:text-orange-600 transition"
-              >
-                Contact
-              </a>
-            </nav>
-
-            {/* Mobile Menu Button */}
-            <button
-              onClick={() => setMenuOpen(!menuOpen)}
-              className="md:hidden text-gray-700"
-            >
-              {menuOpen ? (
-                <X className="h-6 w-6" />
-              ) : (
-                <Menu className="h-6 w-6" />
-              )}
-            </button>
-          </div>
-
-          {/* Mobile Navigation */}
-          {menuOpen && (
-            <nav className="md:hidden py-4 space-y-2 border-t">
-              <a
-                href="#home"
-                className="block py-2 text-gray-700 hover:text-orange-600"
-              >
-                Home
-              </a>
-              <a
-                href="#packages"
-                className="block py-2 text-gray-700 hover:text-orange-600"
-              >
-                Packages
-              </a>
-              <a
-                href="#about"
-                className="block py-2 text-gray-700 hover:text-orange-600"
-              >
-                About
-              </a>
-              <a
-                href="#contact"
-                className="block py-2 text-gray-700 hover:text-orange-600"
-              >
-                Contact
-              </a>
-            </nav>
-          )}
-        </div>
-      </header>
-
-      {/* Hero Section */}
       <Hero />
 
       {/* Introduction Section */}
@@ -182,9 +92,11 @@ export default function Home() {
                     </span>
                   </li>
                 </ul>
-                <button className="w-full bg-orange-600 text-white py-3 rounded-lg font-semibold hover:bg-orange-700 transition">
-                  View Program Details
-                </button>
+                <Link href="/packages/2026">
+                  <button className="w-full bg-orange-600 text-white py-3 rounded-lg font-semibold hover:bg-orange-700 transition">
+                    View Program Details
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -354,25 +266,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="bg-gray-900 text-white py-8">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center">
-            <div className="flex items-center justify-center space-x-2 mb-4">
-              <Mountain className="h-6 w-6 text-orange-600" />
-              <span className="text-lg font-bold">
-                Kailash Mansarovar Yatra UK
-              </span>
-            </div>
-            <p className="text-gray-400 mb-4">
-              Your trusted partner for the spiritual journey of a lifetime
-            </p>
-            <p className="text-gray-500 text-sm">
-              © 2025 kailashmansarovar.co.uk. All rights reserved.
-            </p>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }
