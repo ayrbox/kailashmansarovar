@@ -65,7 +65,7 @@ export default function Package2026() {
       {/* Pricing Section */}
       <section className="py-12 bg-orange-50 border-b">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+          <div className="grid md:grid-cols-1 gap-8 max-w-4xl mx-auto">
             <div className="bg-white rounded-xl shadow-lg p-8 text-center border-2 border-orange-200">
               <div className="text-orange-600 font-semibold text-sm uppercase mb-2">
                 Super Early Bird
