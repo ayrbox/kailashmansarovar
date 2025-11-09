@@ -127,7 +127,7 @@ export default function Footer() {
                 Terms & Conditions
               </Link>
               <Link
-                href="#"
+                href="/cookies"
                 className="text-gray-400 hover:text-white transition"
               >
                 Cookie Policy
