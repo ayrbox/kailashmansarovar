@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { Menu, X } from "lucide-react";
@@ -18,17 +18,32 @@ const menuItems: MenuItem[] = [
 ];
 
 export default function Header() {
+  const [logoSize, setLogoSize] = useState(120);
   const [menuOpen, setMenuOpen] = useState(false);
+
+  const handleWindowScroll = () => {
+    setLogoSize(window.scrollY >= 150 ? 80 : 120);
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleWindowScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleWindowScroll);
+    };
+  }, []);
+
   return (
     <header className="bg-white shadow-md sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center space-x-2">
             <Image
+              className="transition-all"
               alt="Kailash Mansarovar Logo"
               src="/logo.svg"
-              width={120}
-              height={120}
+              width={logoSize}
+              height={logoSize}
             />
           </div>
 
