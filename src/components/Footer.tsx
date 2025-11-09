@@ -115,7 +115,7 @@ export default function Footer() {
             </p>
             <div className="flex space-x-6 text-sm">
               <Link
-                href="#"
+                href="/privacy"
                 className="text-gray-400 hover:text-white transition"
               >
                 Privacy Policy
