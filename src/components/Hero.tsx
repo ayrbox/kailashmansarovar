@@ -17,7 +17,7 @@ export default function Hero() {
         <p className="text-2xl my-8 text-gray-200 font-bold">
           Divine Pilgrimage to Mount Kailash in Tibet
         </p>
-        <p className="text-lg max-w-3xl mb-8">
+        <p className="text-lg max-w-3xl mb-8 text-gray-200">
           A classic and popular route starting from Kathmandu, offering a blend
           of comfort and adventure. Experience the journey of a lifetime to the
           sacred abode of Lord Shiva.
