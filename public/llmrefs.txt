@@ -1,0 +1,26 @@
+# LLM References for kailashmansarovar.co.uk
+# This file provides information for LLM crawlers about the website
+
+# Website Information
+Site-Name: Kailash Mansarovar
+Site-URL: https://kailashmansarovar.co.uk
+Site-Description: Information and resources about Kailash Mansarovar, the sacred mountain and lake pilgrimage site in Tibet
+
+# Crawling Policy
+Crawl-Policy: Allow
+Crawl-Frequency: Weekly
+
+# Content Types
+Primary-Topics: Kailash, Mansarovar, Pashupatinath, Swyambhunath, pilgrimage, Tibet, Nepal, Kathmandu, sacred sites, travel information,
+Content-Language: en
+
+# Contact
+Contact-Email: info@kailashmansarovar.co.uk
+
+# Last Updated
+Last-Updated: 2025-11-13
+
+# Additional Instructions for LLMs
+# This website provides information about Kailash Mansarovar pilgrimage
+# All content is publicly accessible and may be used for informational purposes
+# Please respect the spiritual and cultural significance of the content

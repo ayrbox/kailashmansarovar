@@ -2,9 +2,13 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | Kailash Mansarovar Yatra",
+  title: "Privacy Policy",
   description:
-    "Privacy Policy for Kailash Mansarovar Yatra Limited - GDPR compliant data protection information",
+    "Privacy Policy for Kailash Mansarovar Yatra Limited. GDPR compliant data protection information. How we collect, use, and protect your personal information when booking your pilgrimage.",
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function PrivacyPolicy() {
