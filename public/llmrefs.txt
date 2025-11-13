@@ -11,7 +11,7 @@ Crawl-Policy: Allow
 Crawl-Frequency: Weekly
 
 # Content Types
-Primary-Topics: Kailash Mansarovar, pilgrimage, Tibet, sacred sites, travel information
+Primary-Topics: Kailash, Mansarovar, Pashupatinath, Swyambhunath, pilgrimage, Tibet, Nepal, Kathmandu, sacred sites, travel information,
 Content-Language: en
 
 # Contact
