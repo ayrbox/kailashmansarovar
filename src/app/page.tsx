@@ -6,6 +6,8 @@ import {
   Mail,
   MapPin,
   CheckCircle,
+  Sparkles,
+  Calendar,
 } from "lucide-react";
 import Hero from "@/components/Hero";
 import Link from "next/link";
@@ -44,6 +46,119 @@ export default function Home() {
               organise the itinerary, arrange the permits, and guide the
               participants throughout the journey.
             </p>
+          </div>
+        </div>
+      </section>
+
+      {/* 2026 Horse Year Significance Section */}
+      <section className="py-16 bg-gradient-to-br from-amber-50 via-orange-50 to-amber-50 border-y-4 border-orange-400">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-5xl mx-auto">
+            <div className="text-center mb-12">
+              <div className="inline-flex items-center justify-center w-20 h-20 bg-gradient-to-br from-orange-500 to-amber-600 rounded-full mb-6">
+                <Sparkles className="h-10 w-10 text-white" />
+              </div>
+              <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+                2026 Horse Year Significance
+              </h2>
+              <div className="inline-flex items-center gap-2 bg-orange-600 text-white px-6 py-2 rounded-full text-sm font-semibold mb-6">
+                <Calendar className="h-5 w-5" />
+                <span>Once in 12 Years - Tibetan Year of the Horse</span>
+              </div>
+            </div>
+
+            <div className="bg-white rounded-2xl shadow-xl p-8 md:p-12 border-2 border-orange-200">
+              <div className="grid md:grid-cols-2 gap-8 mb-8">
+                <div className="space-y-4">
+                  <div className="flex items-start gap-3">
+                    <div className="flex-shrink-0 w-8 h-8 bg-orange-100 rounded-full flex items-center justify-center mt-1">
+                      <Sparkles className="h-4 w-4 text-orange-600" />
+                    </div>
+                    <div>
+                      <h3 className="text-xl font-bold text-gray-900 mb-2">
+                        Sacred Alignment
+                      </h3>
+                      <p className="text-gray-700 leading-relaxed">
+                        2026 marks the Tibetan Year of the Horse, a deeply
+                        auspicious time when Mount Kailash's spiritual energy is
+                        believed to be at its most powerful and accessible.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="flex items-start gap-3">
+                    <div className="flex-shrink-0 w-8 h-8 bg-orange-100 rounded-full flex items-center justify-center mt-1">
+                      <Sparkles className="h-4 w-4 text-orange-600" />
+                    </div>
+                    <div>
+                      <h3 className="text-xl font-bold text-gray-900 mb-2">
+                        Thirteen-Fold Merit
+                      </h3>
+                      <p className="text-gray-700 leading-relaxed">
+                        According to Tibetan Buddhist tradition, completing the
+                        Kailash Kora (circumambulation) during the Horse Year
+                        brings the spiritual merit equivalent to thirteen
+                        circumambulations in any other year.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="space-y-4">
+                  <div className="flex items-start gap-3">
+                    <div className="flex-shrink-0 w-8 h-8 bg-orange-100 rounded-full flex items-center justify-center mt-1">
+                      <Sparkles className="h-4 w-4 text-orange-600" />
+                    </div>
+                    <div>
+                      <h3 className="text-xl font-bold text-gray-900 mb-2">
+                        Once-in-a-Lifetime Opportunity
+                      </h3>
+                      <p className="text-gray-700 leading-relaxed">
+                        This sacred confluence occurs only once every 12 years.
+                        The next Horse Year won't arrive until 2038, making 2026
+                        a truly rare opportunity for pilgrims.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="flex items-start gap-3">
+                    <div className="flex-shrink-0 w-8 h-8 bg-orange-100 rounded-full flex items-center justify-center mt-1">
+                      <Sparkles className="h-4 w-4 text-orange-600" />
+                    </div>
+                    <div>
+                      <h3 className="text-xl font-bold text-gray-900 mb-2">
+                        Enhanced Spiritual Journey
+                      </h3>
+                      <p className="text-gray-700 leading-relaxed">
+                        Pilgrims from across Hindu, Buddhist, Jain, and Bon
+                        traditions consider the Horse Year as the most
+                        spiritually potent time to undertake this sacred
+                        pilgrimage.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-gradient-to-br from-orange-50 to-amber-50 rounded-xl p-6 border-2 border-orange-200">
+                <div className="flex flex-col md:flex-row items-center justify-between gap-4">
+                  <div className="text-center md:text-left">
+                    <p className="text-lg font-bold text-gray-900 mb-2">
+                      Don't Miss This Sacred Opportunity
+                    </p>
+                    <p className="text-gray-700">
+                      Join thousands of pilgrims in this once-in-12-years
+                      spiritual journey to Mount Kailash and Lake Mansarovar.
+                    </p>
+                  </div>
+                  <Link href="/packages/2026">
+                    <button className="bg-orange-600 text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-orange-700 transition shadow-lg hover:shadow-xl whitespace-nowrap">
+                      View 2026 Packages
+                    </button>
+                  </Link>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>

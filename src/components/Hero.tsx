@@ -10,7 +10,7 @@ export default function Hero() {
       id="home"
     >
       <div className="relative container mx-auto px-8 py-32 xl:p-40 flex flex-col text-center md:text-left">
-        <h1 className="text-8xl md:text-6xl text-gray-200 text-shadow-lg">
+        <h1 className="text-6xl md:text-8xl text-gray-200 text-shadow-lg">
           Kailash Mansarovar Yatra
           <span className="font-bold"> 2026</span>
         </h1>
