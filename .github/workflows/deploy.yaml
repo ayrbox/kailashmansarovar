@@ -65,6 +65,7 @@ jobs:
         run: pnpm build
         env:
           SITE_URL: https://kailashmansarovar.co.uk
+          NEXT_PUBLIC_GA_MEASUREMENT_ID: ${{ secrets.GA_MEASUREMENT_ID }}
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
