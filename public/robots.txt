@@ -7,5 +7,5 @@ Allow: /
 # Crawl-delay to be respectful to the server
 Crawl-delay: 1
 
-# Sitemap location (update this when you add a sitemap)
+# Sitemap location
 Sitemap: https://kailashmansarovar.co.uk/sitemap.xml
