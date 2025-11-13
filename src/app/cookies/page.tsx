@@ -2,9 +2,13 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Cookie Policy | Kailash Mansarovar Yatra",
+  title: "Cookie Policy",
   description:
-    "Cookie Policy for Kailash Mansarovar Yatra Limited - How we use cookies and tracking technologies",
+    "Cookie Policy for Kailash Mansarovar Yatra Limited. How we use cookies and tracking technologies on our website. Manage your cookie preferences.",
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function CookiePolicy() {

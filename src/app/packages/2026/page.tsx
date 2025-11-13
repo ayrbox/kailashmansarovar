@@ -19,6 +19,10 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import BookCTA from "@/components/BookCTA";
 
+// Note: Metadata cannot be exported from client components
+// The metadata for this page should be set in a parent layout or use generateMetadata
+// For now, you can add this metadata in the app/packages/2026/layout.tsx if needed
+
 export default function Package2026() {
   const [menuOpen, setMenuOpen] = useState(false);
 

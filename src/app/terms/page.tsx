@@ -2,9 +2,13 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Terms & Conditions | Kailash Mansarovar Yatra",
+  title: "Terms & Conditions",
   description:
-    "Terms and Conditions for Kailash Mansarovar Yatra Limited travel services",
+    "Terms and Conditions for Kailash Mansarovar Yatra Limited. Booking terms, cancellation policy, liability, and important information for your Kailash pilgrimage tour.",
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function TermsAndConditions() {

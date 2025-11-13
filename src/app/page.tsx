@@ -11,6 +11,16 @@ import Hero from "@/components/Hero";
 import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Sacred Mount Kailash & Lake Mansarovar Pilgrimage 2026",
+  description: "Join our Kailash Mansarovar Yatra 2026 from UK via Nepal route. Year of the Horse pilgrimage. 16 days overland journey including Kailash Kora. UK-based operator, small groups, all permits included. From £3,400.",
+  openGraph: {
+    title: "Kailash Mansarovar Yatra 2026 | Sacred Pilgrimage from UK",
+    description: "Experience the spiritual journey of a lifetime. Kailash Mansarovar Yatra 2026 via Nepal-Tibet route. Small groups, expert guidance, complete support.",
+  },
+};
 
 export default function Home() {
   return (
