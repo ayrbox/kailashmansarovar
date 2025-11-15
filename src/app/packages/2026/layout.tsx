@@ -1,28 +1,34 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Kailash Mansarovar Yatra 2026 Packages | 16 Days Overland | £3,400",
-  description: "Book Kailash Mansarovar Yatra 2026 packages from UK. Year of the Horse pilgrimage. 16 nights/17 days overland route via Kathmandu-Tibet. Includes Mount Kailash Kora, Lake Mansarovar Parikrama, all permits, meals & accommodation. May-September departures. Super early bird £3,400.",
+  title: "Kailash Mansarovar Yatra 2026 | Year of the Horse | 17 Days Spiritual Pilgrimage | £3,400",
+  description: "Experience the sacred Kailash Mansarovar Yatra 2026 - Year of the Horse, once in 12 years. 17-day pilgrimage reaching 5,800m Charansparsh point. Includes Mount Kailash Kora, Lake Mansarovar Parikrama, temple visits, Rudrabhishek Puja. Full board overland tour from Kathmandu. May-September 2026 departures with Full Moon dates available.",
   keywords: [
-    "Kailash Mansarovar Yatra 2026 packages",
-    "Kailash tour cost 2026",
-    "Mount Kailash package price",
+    "Kailash Mansarovar Yatra 2026",
+    "Year of the Horse 2026",
+    "Mount Kailash pilgrimage",
+    "Charansparsh trek 5800m",
+    "Kailash Kora 2026",
+    "Lake Mansarovar tour",
+    "Overland Kailash package",
+    "Spiritual pilgrimage Nepal Tibet",
     "Kailash yatra booking 2026",
-    "overland Kailash tour",
+    "Horse Year pilgrimage",
     "Kailash departure dates 2026",
-    "Year of the Horse Kailash",
-    "Kailash Kora package",
-    "Lake Mansarovar tour 2026"
+    "Mount Kailash 5800m altitude",
+    "17 days Kailash tour",
+    "Full Moon pilgrimage dates",
+    "Sacred Hindu pilgrimage 2026"
   ],
   openGraph: {
-    title: "Kailash Mansarovar Yatra 2026 | Complete Package £3,400",
-    description: "16-day sacred pilgrimage including Kailash Kora & Lake Mansarovar. May-September 2026 departures. Small groups. All permits included. Book the Year of the Horse journey.",
+    title: "Kailash Mansarovar Yatra 2026 - Year of the Horse | 17-Day Spiritual Journey | £3,400",
+    description: "Join the once-in-12-years Year of the Horse pilgrimage in 2026. 17 days of spiritual transformation including Mount Kailash Kora, Lake Mansarovar rituals, Charansparsh peak at 5,800m. May-September departures with Full Moon dates. Expert guides, all permits, meals & accommodation included.",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Kailash Mansarovar Yatra 2026 Package | £3,400",
-    description: "Complete 16-day pilgrimage package. Year of the Horse 2026. May-September departures. Small groups, expert guidance.",
+    title: "Kailash Mansarovar Yatra 2026 - Year of the Horse | £3,400",
+    description: "17-day sacred pilgrimage including Charansparsh trek to 5,800m. Year of the Horse - once in 12 years. May-September 2026. Small groups, full board, expert guidance.",
   },
 };
 
